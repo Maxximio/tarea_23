@@ -62,6 +62,10 @@ public class Application implements CommandLineRunner{
 		
 		gestorService.ConsultarSaldo("235325");
 		
+		gestorService.RetirarDinero("235325", new BigDecimal(30.00));
+		
+		gestorService.ConsultarSaldo("235325");
+		
 		//habienteService.BorrarCuentaHabienteService("171242353");
 		//cuentaService.BorrarCuentaBancariaService("124567");
 	}
